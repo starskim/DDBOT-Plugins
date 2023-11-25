@@ -18,9 +18,6 @@ func TestParseConcernStateKeyWithInt64(t *testing.T) {
 		{
 			GroupCode1, Uid,
 		},
-		{
-			GroupCode1, Uid,
-		},
 	}
 	assert.Equal(t, len(expected), len(testCase))
 	for index := range testCase {

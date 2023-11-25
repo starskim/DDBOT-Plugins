@@ -1,7 +1,7 @@
 package bilibili
 
 import (
-	"DDBOT-BiliBili/internal/test"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-BiliBili/internal/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

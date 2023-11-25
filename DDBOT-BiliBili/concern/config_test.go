@@ -3,7 +3,7 @@ package bilibili
 import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/starskim/DDBOT-BiliBili/internal/test"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-BiliBili/internal/test"
 	localdb "github.com/starskim/DDBOT/lsp/buntdb"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"

@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-BiliBili
+module github.com/starskim/DDBOT-Plugins/DDBOT-BiliBili
 
 go 1.20
 

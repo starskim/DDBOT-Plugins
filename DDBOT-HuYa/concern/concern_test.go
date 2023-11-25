@@ -1,9 +1,9 @@
 package huya
 
 import (
-	"DDBOT-HuYa/internal/test"
 	"context"
 	"github.com/sirupsen/logrus"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-HuYa/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"
 	"testing"

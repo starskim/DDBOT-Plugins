@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-AcFun
+module github.com/starskim/DDBOT-Plugins/DDBOT-AcFun
 
 go 1.20
 

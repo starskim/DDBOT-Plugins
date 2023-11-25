@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/starskim/DDBOT"
-	_ "github.com/starskim/DDBOT-YouTube/concern"
+	_ "github.com/starskim/DDBOT-Plugins/DDBOT-YouTube/concern"
 	// 别忘记在这里引入刚刚编写的插件
 )
 

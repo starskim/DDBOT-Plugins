@@ -1,9 +1,9 @@
 package acfun
 
 import (
-	"DDBOT-AcFun/internal/test"
 	"context"
 	"github.com/sirupsen/logrus"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-AcFun/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"
 	"testing"

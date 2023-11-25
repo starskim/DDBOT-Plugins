@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-WeiBo
+module github.com/starskim/DDBOT-Plugins/DDBOT-WeiBo
 
 go 1.20
 

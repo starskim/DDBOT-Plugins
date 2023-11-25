@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-TwitCasting
+module github.com/starskim/DDBOT-Plugins/DDBOT-TwitCasting
 
 go 1.20
 

@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-DouYu
+module github.com/starskim/DDBOT-Plugins/DDBOT-DouYu
 
 go 1.20
 

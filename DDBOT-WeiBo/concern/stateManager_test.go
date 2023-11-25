@@ -1,7 +1,7 @@
 package weibo
 
 import (
-	"DDBOT-WeiBo/internal/test"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-WeiBo/internal/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -1,7 +1,7 @@
 package youtube
 
 import (
-	"DDBOT-YouTube/internal/test"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-YouTube/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"
 	"testing"

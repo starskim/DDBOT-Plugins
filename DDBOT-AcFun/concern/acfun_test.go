@@ -1,7 +1,7 @@
 package acfun
 
 import (
-	"DDBOT-AcFun/internal/test"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-AcFun/internal/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

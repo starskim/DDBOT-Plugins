@@ -1,8 +1,8 @@
 package bilibili
 
 import (
-	"DDBOT-BiliBili/internal/test"
 	"context"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-BiliBili/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/starskim/DDBOT/utils/msgstringer"
 	"github.com/stretchr/testify/assert"

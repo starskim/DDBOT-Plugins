@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-HuYa
+module github.com/starskim/DDBOT-Plugins/DDBOT-HuYa
 
 go 1.20
 

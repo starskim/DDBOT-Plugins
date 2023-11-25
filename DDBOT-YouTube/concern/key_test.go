@@ -31,9 +31,6 @@ func TestParseConcernStateKeyWithString(t *testing.T) {
 		{
 			GroupCode1, Sid,
 		},
-		{
-			GroupCode1, Sid,
-		},
 	}
 	assert.Equal(t, len(expected), len(testCase))
 	for index := range testCase {

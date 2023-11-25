@@ -1,9 +1,9 @@
 package douyu
 
 import (
-	"DDBOT-DouYu/internal/test"
 	"context"
 	"github.com/sirupsen/logrus"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-DouYu/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"
 	"testing"

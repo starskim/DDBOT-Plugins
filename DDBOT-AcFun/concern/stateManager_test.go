@@ -1,7 +1,7 @@
 package acfun
 
 import (
-	"DDBOT-AcFun/internal/test"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-AcFun/internal/test"
 	localdb "github.com/starskim/DDBOT/lsp/buntdb"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"

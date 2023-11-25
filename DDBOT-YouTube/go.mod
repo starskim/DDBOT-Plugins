@@ -1,4 +1,4 @@
-module github.com/starskim/DDBOT-YouTube
+module github.com/starskim/DDBOT-Plugins/DDBOT-YouTube
 
 go 1.20
 

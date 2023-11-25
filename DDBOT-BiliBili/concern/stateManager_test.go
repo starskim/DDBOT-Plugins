@@ -1,9 +1,9 @@
 package bilibili
 
 import (
-	"DDBOT-BiliBili/internal/test"
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
+	"github.com/starskim/DDBOT-Plugins/DDBOT-BiliBili/internal/test"
 	localdb "github.com/starskim/DDBOT/lsp/buntdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/buntdb"
