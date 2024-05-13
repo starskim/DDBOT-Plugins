@@ -1,0 +1,33 @@
+name: "CI"
+on:
+  push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        go: [ '1.20' ]
+        live: [ "acfun","bilibili","douyu","huya","twitcasting","weibo","youtube" ]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: ${{ matrix.go }}
+      - name: Install dependencies
+        run: |
+          go get .
+          go mod tidy
+      - name: Test with the Go CLI
+        run: go test ./${{ matrix.live }}
+
+  # notifies that all test jobs are finished.
+  finish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: shogo82148/actions-goveralls@v1
+        with:
+          parallel-finished: true
